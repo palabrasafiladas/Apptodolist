@@ -1,4 +1,4 @@
-import './App.css';
+import './theme/App.css';
 import React from 'react';
 import { TodoCounter } from './components/TodoCounter';
 import { TodoSearch } from './components/TodoSearch';
