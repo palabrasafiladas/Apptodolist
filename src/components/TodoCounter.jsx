@@ -4,7 +4,7 @@ function TodoCounter() {
 
 
     return (
-        <h2> Has completado 2 de 3</h2>
+        <h2> Create a new task</h2>
 
     );
 }

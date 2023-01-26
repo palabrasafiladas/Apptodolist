@@ -3,13 +3,13 @@ import React from "react";
 function TodoItem (props) {
 
     return (
-       <li> 
+       <div> 
 
 
         <span>C</span>
         <p>{props.text}</p>
         <span>X</span>
-       </li>
+       </div>
 
     );
 }

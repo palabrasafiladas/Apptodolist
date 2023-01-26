@@ -7,9 +7,9 @@ import { TodoItem } from './components/TodoItem';
 import { CreateTodoButton } from './components/CreateTodoButton';
 const todos = 
 [
-{text: 'crear componente', completed: false},
-{text: 'renderizar componente', completed: false},
-{text: 'editar componente', completed: false},
+{text: 'create', completed: false},
+{text: 'create', completed: false},
+{text: 'create ', completed: false},
 
 
 ];
