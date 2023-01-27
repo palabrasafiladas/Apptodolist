@@ -3,7 +3,7 @@ import '../theme/TodoSearch.css'
 
 function TodoSearch () {
     return (
-        <input placeholder='Email'/>
+        <input placeholder='Realiza tu busqueda aqui'/>
 
     );
 

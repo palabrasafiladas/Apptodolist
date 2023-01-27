@@ -1,17 +1,20 @@
-import React from "react";
+import React from 'react';
+import '../theme/TodoItem.css';
 
-function TodoItem (props) {
-
-    return (
-       <div> 
-
-
-        <span>C</span>
-        <p>{props.text}</p>
-        <span>X</span>
-       </div>
-
-    );
+function TodoItem(props) {
+  return (
+    <li className="TodoItem">
+      <span className={`Icon Icon-check ${props.completed && 'Icon-check--active'}`}>
+        o
+      </span>
+      <p className={`TodoItem-p ${props.completed && 'TodoItem-p--complete'}`}>
+        {props.text}
+      </p>
+      <span className="Icon Icon-delete">
+        X
+      </span>
+    </li>
+  );
 }
 
-export {TodoItem};
+export { TodoItem };
